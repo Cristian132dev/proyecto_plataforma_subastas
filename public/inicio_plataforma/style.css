@@ -1,0 +1,97 @@
+/*! cabecera */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 10px;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+
+    text-decoration: none;
+}
+
+
+#logoCabecera{
+    width: 50px;
+    margin-right: 10px;
+}
+
+#tituloEmpresa{
+    font-family: "Fredoka One";
+    width: 200px;
+    height: 68px;
+    left: 104px;
+    top: 26px;
+    font-family: Fredoka One;
+    font-style: normal;
+    font-weight: normal;
+    color: #31A5E7;
+    font-size: 30px;
+}
+
+#busqueda{
+    margin-right:0 ;
+    margin-top: 8px;
+    padding-top: 10px;
+    display: block;
+    width: 620px;
+    margin:0 10px;
+    margin-right: 0;
+    outline: none;
+}
+
+#iniciarSesion{
+    background-color: #31A5E7;
+    color: white;
+    padding: 10px;
+    border: #31A5E7;
+    border-radius: 5px;
+    font-family: "Fredoka One";
+}
+
+#iniciarSesion:hover{
+    text-decoration: none;
+}
+
+#iniciarSesion:active{
+    background-color: aqua;
+    margin: 0 10px;
+}
+
+#btnBusqueda{
+    text-align: center;
+    margin-left: 0px;
+    margin: 0 10px;
+    text-align: center;
+    float: left;
+    width: 30px;
+}
+
+#imagen{
+    max-width: 300px;
+    border: 1px solid black;
+}
+
+input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: none;
+    }
+input{
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+
+}
