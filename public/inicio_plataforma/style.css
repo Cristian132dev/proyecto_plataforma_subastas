@@ -63,7 +63,7 @@ li a {
 
 #iniciarSesion:active{
     background-color: aqua;
-    margin: 0 10px;
+    /* margin: 0 10px; */
 }
 
 #btnBusqueda{
@@ -83,9 +83,10 @@ li a {
 input:focus {
     border: 2px solid #3498DB;
     box-shadow: none;
-    }
+}
+
 input{
-    text-align: center;
+    text-align: left;
     background-color: #ECF0F1;
     border: 2px solid transparent;
     border-radius: 3px;

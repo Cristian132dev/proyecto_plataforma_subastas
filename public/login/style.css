@@ -59,11 +59,12 @@ li a {
 
 #iniciarSesion:hover{
     text-decoration: none;
+    border-color: #31A5E7;
 }
 
 #iniciarSesion:active{
-    background-color: aqua;
-    margin: 0 10px;
+    background-color:#4db3ee;
+    /* margin: 0 10px; */
 }
 
 #btnBusqueda{
@@ -153,8 +154,14 @@ input:focus {
     margin: 0 auto;
 }
 
-.btn:hover {
-    background-color: aqua;
+.btnCrea:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #fa726b;
+}
+
+.btnCrea:active{
+    background-color: hsl(3, 46%, 77%);
 }
 
 .login-link {
