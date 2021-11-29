@@ -14,15 +14,19 @@ li {
 li a {
     display: block;
     text-align: center;
-    padding: 15px;
+    padding: 0;
     text-decoration: none;
 }
 
+li a:hover{
+    text-decoration: none;
+}
 
 .logoCabecera{
     width: 50px;
     margin-right: 10px;
 }
+
 
 .tituloEmpresa{
     font-family: "Fredoka One";
@@ -59,7 +63,9 @@ li a {
 
 .iniciarSesion:hover{
     text-decoration: none;
-    border-color: #31A5E7;
+    background-color: #4db3ee;
+    color: white;
+
 }
 
 .iniciarSesion:active{
@@ -174,3 +180,4 @@ input:focus {
 .registro-login{
     margin-top: 60px;
 }
+
