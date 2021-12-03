@@ -22,6 +22,7 @@ li a:hover{
     text-decoration: none;
 }
 
+
 .logoCabecera{
     width: 50px;
     margin-right: 10px;
@@ -41,6 +42,31 @@ li a:hover{
     font-size: 30px;
 }
 
+
+/*! pie de pagina */
+
+
+.pie-pagina{
+    border: 1px solid black;
+    overflow: hidden;
+}
+.contactenos{
+    float: right;
+}
+
+.titulo-contactenos{
+    font-size: 35px;
+    text-align: center;
+}
+
+.redes-sociales img{
+    position: relative;
+    text-align: right;
+    width: 50px;
+
+}
+
+/*! login, inicio */
 .busqueda{
     margin-right:0 ;
     margin-top: 8px;
@@ -120,7 +146,6 @@ input {
     font-weight: 200;
     padding: 10px 0;
     width: 460px;
-
 }
 
 input:focus {
@@ -181,3 +206,114 @@ input:focus {
     margin-top: 60px;
 }
 
+
+/*! registro */
+
+.tabla-registro, .titulo-registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, select, label{
+    border-color: #808080;
+    margin: 5px;
+    color: #808080;
+}
+
+.titulo-registro{
+    margin: 12px auto;
+    font-family: "Fredoka One";
+    font-size: 45px;
+    color: #31A5E7;
+}
+
+/*! perfil externo  */
+
+.pag-perfil-ext{
+    display:flex;
+    justify-content: left;
+}
+
+.btn-perfil-ext{
+    color: white;
+    text-align: left;
+    font-family: "Fredoka One";
+    background-color: #31A5E7;
+    border-radius: 3px;
+    width: 200px;
+    margin: 3px auto;
+    padding-left: 5px;
+}
+
+.btn-perfil-ext:hover{
+    color: white;
+    background-color: #4db3ee;
+}
+
+
+.main-perfil-ext{
+    background-color: var(--secondary);
+    margin: 0 auto;
+
+}
+
+/*! historial */
+
+.lista{
+    display: flex;
+    justify-content: center;;
+    max-width: 80%;
+    margin: 10px auto;
+}
+
+.img-historial{
+    width: 90px;
+    border: 2px solid black;
+}
+
+txt-historial{
+    height: 20px;
+}
+
+.btn-historial{
+    background-color: #4db3ee;
+    border-radius: 2px;
+    width: 120px;
+    color: white;
+}
+
+.btn-cancelar{
+    margin-top: 5px ;
+    background-color: var(--pink);
+    border-radius: 2px;
+    width: 120px;
+    color:white
+}
+
+.btn-historial:hover{
+    color: white;
+    background-color: #31A5E7;
+    text-decoration: none;
+}
+
+.btn-cancelar:hover{
+    color: white;
+    background-color: #fa726b;
+    text-decoration: none;
+}
+
+.pest-historial li{
+    margin: 15px;
+
+}
+
+.btn-regresar{
+    width: 40px;
+    margin: 10px;
+}
+
+.titulo-historial{
+    font-family: "Fredoka One, Arial";
+    font-size: 45px;
+}
