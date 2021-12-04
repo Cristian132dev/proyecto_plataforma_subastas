@@ -1,17 +1,17 @@
-import ropa from "../resources/img/ropa.jpg";
+import { Link } from "react-router-dom";
+import "../resources/css/bootstrap.css"
+import "../resources/css/style_propio.css"
 import regresar from "../resources/img/regresar.png"
-import "../resources/css/bootstrap.css";
-import "../resources/css/style_propio.css";
-import { Link } from "react-router-dom"
+import ropa from "../resources/img/ropa.jpg"
 
-function Historial() {
+function Ganadas() {
     return (
         <div className="pest-historial">
             <div className="titulo-historial">
-                <Link to="/perfil_externo">
+                <Link to="/perfil-externo">
                     <img className="btn-regresar" src={regresar} alt="regresar" />
                 </Link>
-                <h1>Historial de Pujas</h1>
+                <h1>Pujas Ganadas</h1>
             </div>
             <ul className="container lista">
                 <li>
@@ -28,11 +28,11 @@ function Historial() {
                 </li>
                 <li>
                     <Link  className="btn-historial" to="/subasta"> Ver Subasta</Link>
-                    <Link className="btn-cancelar"to="">Cancelar</Link>
                 </li>
             </ul>
         </div>
     )
 }
 
-export default Historial;
+
+export default Ganadas;

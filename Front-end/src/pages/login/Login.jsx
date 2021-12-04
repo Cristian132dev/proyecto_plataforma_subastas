@@ -1,31 +1,14 @@
 import { Link } from "react-router-dom";
-import
 import '../resources/css/bootstrap.css';
 import '../resources/css/style_propio.css';
-import logoEmpresa from "../resources/img/logoColsubastas.jpeg";
-import lupa from "../resources/img/lupa.png"
+import Cabecera from "../components/Cabecera";
+import PiePagina from "../components/PiePagina";
 
 function Login() {
     return (
         <div>
             {/* Cabecera */}
-            <header className="container">
-                <ul>
-                    <li>
-                        <Link to="/">
-                            <img  className="logoCabecera" src={logoEmpresa} alt="Logo Colsubastas" />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/">
-                            <p className="tituloEmpresa"> Colsubastas</p>
-                        </Link>
-                    </li>
-                    <li><input type="search" name="busqueda" className="busqueda" placeholder="buscador..." /></li>
-                    <li><input type="image" title="buscar" className="btnBusqueda" src={lupa} alt="buscar" /></li>
-                    <li><Link to="/login" className="iniciarSesion">Iniciar Sesion</Link></li>
-                </ul>
-            </header>
+            <Cabecera />
 
             {/* Formulario */}
             <form className="login">
@@ -35,7 +18,7 @@ function Login() {
                     </div>
                     <div className="formulario-login">
                         <div className="grupo-opciones">
-                            <input type="email" className="login-correo" placeholder="correo electronico" id="correo"  required/>
+                            <input type="email" className="login-correo" placeholder="correo electronico" id="correo" required />
                         </div>
                         <div className="grupo-opciones">
                             <input type="password" className="login-contraseña" placeholder="contraseña" id="password" required />
@@ -48,7 +31,10 @@ function Login() {
                     </div>
                 </div>
             </form>
-            </div>
+
+            {/* Pie de pagina */}
+            <PiePagina />
+        </div>
     )
 }
 

@@ -228,14 +228,14 @@ form input, select, label{
     color: #31A5E7;
 }
 
-/*! perfil externo  */
+/*! perfil externo y perfil interno*/
 
-.pag-perfil-ext{
+.pag-perfil{
     display:flex;
     justify-content: left;
 }
 
-.btn-perfil-ext{
+.btn-perfil{
     color: white;
     text-align: left;
     font-family: "Fredoka One";
@@ -246,13 +246,13 @@ form input, select, label{
     padding-left: 5px;
 }
 
-.btn-perfil-ext:hover{
+.btn-perfil:hover{
     color: white;
     background-color: #4db3ee;
 }
 
 
-.main-perfil-ext{
+.main-perfil{
     background-color: var(--secondary);
     margin: 0 auto;
 
