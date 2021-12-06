@@ -1,0 +1,17 @@
+[
+  {
+    "idPuja": 1,
+    "nombrePuja": "Camiseta",
+    "precioPuja": 70000
+  },
+  {
+    "idPuja": 2,
+    "nombrePuja": "Buzo",
+    "precioPuja": 800
+  },
+  {
+    "idPuja": 3,
+    "nombrePuja": "Chaleco",
+    "precioPuja": 180000
+  }
+]

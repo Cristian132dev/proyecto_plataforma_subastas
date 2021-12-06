@@ -1,6 +1,6 @@
 // import { Link } from "react-router-dom";
-import "../resources/css/bootstrap.css"
-import "../resources/css/style_propio.css"
+import '../../resources/css/bootstrap.css';
+import '../../resources/css/style_propio.css';
 
 
 

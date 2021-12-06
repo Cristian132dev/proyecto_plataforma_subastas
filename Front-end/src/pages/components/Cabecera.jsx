@@ -1,5 +1,5 @@
-import logoEmpresa from "../resources/img/logoColsubastas.jpeg";
-import lupa from "../resources/img/lupa.png";
+import logoEmpresa from "../../resources/img/logoColsubastas.jpeg";
+import lupa from "../../resources/img/lupa.png";
 import { Link } from "react-router-dom";
 
 function Cabecera() {

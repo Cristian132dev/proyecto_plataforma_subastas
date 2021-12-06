@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 import Cabecera from "../components/Cabecera";
 import PiePagina from "../components/PiePagina";
-import "../resources/css/bootstrap.css"
-import "../resources/css/style_propio.css"
+import '../../resources/css/bootstrap.css';
+import '../../resources/css/style_propio.css';
 
 /* import ropa from "../resources/img/ropa.jpg";
 import facebook from "../resources/img/facebook.png"

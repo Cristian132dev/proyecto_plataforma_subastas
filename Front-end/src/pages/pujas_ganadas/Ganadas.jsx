@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import "../resources/css/bootstrap.css"
-import "../resources/css/style_propio.css"
-import regresar from "../resources/img/regresar.png"
-import ropa from "../resources/img/ropa.jpg"
+import '../../resources/css/bootstrap.css';
+import '../../resources/css/style_propio.css';
+import regresar from "../../resources/img/regresar.png"
+import ropa from "../../resources/img/ropa.jpg"
 
 function Ganadas() {
     return (

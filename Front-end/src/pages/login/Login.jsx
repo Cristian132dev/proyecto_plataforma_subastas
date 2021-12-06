@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import '../resources/css/bootstrap.css';
-import '../resources/css/style_propio.css';
+import '../../resources/css/bootstrap.css';
+import '../../resources/css/style_propio.css';
 import Cabecera from "../components/Cabecera";
 import PiePagina from "../components/PiePagina";
 

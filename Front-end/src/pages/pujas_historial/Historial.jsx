@@ -1,7 +1,7 @@
-import ropa from "../resources/img/ropa.jpg";
-import regresar from "../resources/img/regresar.png"
-import "../resources/css/bootstrap.css";
-import "../resources/css/style_propio.css";
+import ropa from "../../resources/img/ropa.jpg";
+import regresar from "../../resources/img/regresar.png"
+import '../../resources/css/bootstrap.css';
+import '../../resources/css/style_propio.css';
 import { Link } from "react-router-dom"
 
 function Historial() {
