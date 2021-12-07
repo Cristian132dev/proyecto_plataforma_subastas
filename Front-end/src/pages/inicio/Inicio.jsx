@@ -1,7 +1,7 @@
-import "../../resources/css/bootstrap.css";
-import "../../resources/css/style_propio.css";
+import "../resources/css/bootstrap.css";
+import "../resources/css/style_propio.css";
 import DatosJSON from "../../mocks/inicioSubasta.json";
-import DataInicio from "../components/DataInicio";
+import DataInicio from "./DataInicio";
 import axios from "axios";
 
 import PiePagina from "../components/PiePagina";
@@ -28,7 +28,7 @@ function Inicio() {
          {/* contenedor donde se muestran las prendas */}
          {DatosJSON.map((DatosJSON) => {
             console.log(DatosJSON)
-            return <DataInicio key={DatosJSON.idPuja} data={DatosJSON} />
+            return <DataInicio key={DatosJSON.id} data={DatosJSON} />
          })}
 
          {/* pie de pagina */}

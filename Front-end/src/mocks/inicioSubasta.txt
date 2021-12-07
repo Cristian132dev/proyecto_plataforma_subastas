@@ -4,7 +4,11 @@
       "nombre": "Camiseta",
       "precio": 70000
    },
-
+   {
+      "id": 2,
+      "nombre": "Chaqueta",
+      "precio": 800
+   },
    {
       "id": 3,
       "nombre": "Chaleco",

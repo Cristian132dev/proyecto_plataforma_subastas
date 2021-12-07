@@ -47,8 +47,15 @@ li a:hover{
 
 
 .pie-pagina{
+    display: flex;
     border: 1px solid black;
     overflow: hidden;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 .contactenos{
     float: right;
@@ -60,8 +67,7 @@ li a:hover{
 }
 
 .redes-sociales img{
-    position: relative;
-    text-align: right;
+    display: inline-flex;
     width: 50px;
 
 }
@@ -109,7 +115,7 @@ li a:hover{
 }
 
 .imagen{
-    max-width: 300px;
+    width: 260px;
     border: 1px solid black;
 }
 
@@ -262,7 +268,9 @@ form input, select, label{
 
 .lista{
     display: flex;
-    justify-content: center;;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
     max-width: 80%;
     margin: 10px auto;
 }
@@ -316,4 +324,11 @@ txt-historial{
 .titulo-historial{
     font-family: "Fredoka One, Arial";
     font-size: 45px;
+}
+/* !inicio */
+.container  {
+    display: inline-flex;
+    margin: 10px auto;
+
+
 }
