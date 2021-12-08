@@ -8,7 +8,8 @@ function Perfil_externo() {
    return (
       <div>
          {/* cabecera */}
-         <CabMiPerfExt />
+         <CabMiPerfExt
+         />
 
          {/* pestaña izq */}
          <div className="pag-perfil">

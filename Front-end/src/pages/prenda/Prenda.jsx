@@ -11,13 +11,14 @@ function Prenda() {
    return (
       <div>
          <Cabecera />
-
          <div className="container">
+            <div className="pagina-entera">
 
-         <PrendaInfo />
+               <PrendaInfo />
 
-         <PrendaTabla />
+               <PrendaTabla />
 
+            </div>
          </div>
 
          <PiePagina />

@@ -20,7 +20,7 @@ function CompPerdidas(props) {
             </span>
          </li>
          <li>
-            <Link className="btn-historial" to="/subasta"> Ver Subasta</Link>
+            <Link className="btn-historial" to="/prenda"> Ver Subasta</Link>
          </li>
       </div>
    )

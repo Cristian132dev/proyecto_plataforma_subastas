@@ -326,18 +326,15 @@ txt-historial{
     font-size: 45px;
 }
 /* !inicio */
-.container  {
+
+
+/*! prendas  */
+.pagina-entera {
+    margin: 0 auto;
     display: inline-flex;
     margin: 10px auto;
     flex-direction: row;
     justify-content: space-around;
-
-
-}
-
-/*! prendas  */
-.pagina-entera {
-    display: grid;
 }
 
 .datos-prenda img{
@@ -365,4 +362,24 @@ td.valores-puja{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+/*! crear subastas */
+.crear-subasta img{
+    width: 350px;
+    border: 2px solid black;
+}
+
+.crear-subasta{
+    display: flex;
+}
+
+.crear-subasta textarea{
+    width: 400px;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.crear-subasta .iniciarSesion{
+    width: 320px;
 }

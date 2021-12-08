@@ -24,10 +24,10 @@ function Perfil_interno() {
                      <Link className="btn-perfil" to="/perfil-interno/perdidas">Pujas Perdidas</Link>
                   </li> <br />
                   <li>
-                     <Link className="btn-perfil" to="/perfil-interno/perdidas">Crear Subasta</Link>
+                     <Link className="btn-perfil" to="/perfil-interno/crear">Crear Subasta</Link>
                   </li> <br />
                   <li>
-                     <Link className="btn-perfil" to="/perfil-interno/perdidas">Editar Subasta</Link>
+                     <Link className="btn-perfil" to="/perfil-interno/editar">Editar Subasta</Link>
                   </li> <br />
                   <li>
                      <Link className="btn-perfil" to="/perfil-interno/perdidas">Ver Reporte</Link>

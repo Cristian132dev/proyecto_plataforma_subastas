@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import '../resources/css/bootstrap.css';
 import '../resources/css/style_propio.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -99,6 +100,8 @@ function Registro() {
                   required /> <br />
 
                <input type="submit" value="Crear Una Cuenta" className="btnCrea" /> <br />
+
+               <Link to="/login">¿Tienes cuenta? Inicia sesion</Link>
             </form>
          </div>
       </div>
