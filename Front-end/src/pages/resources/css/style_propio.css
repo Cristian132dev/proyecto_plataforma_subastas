@@ -329,6 +329,40 @@ txt-historial{
 .container  {
     display: inline-flex;
     margin: 10px auto;
+    flex-direction: row;
+    justify-content: space-around;
 
 
+}
+
+/*! prendas  */
+.pagina-entera {
+    display: grid;
+}
+
+.datos-prenda img{
+    width: 400px;
+    border: 2px solid black
+}
+.datos-prenda h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.datos-prenda textarea{
+    width: 400px;
+    min-height: 100px;
+    max-height: 200px;
+
+}
+
+.tabla-pujas{
+    margin: 42px 30px;
+    text-align: center;
+    width: 400px;
+}
+
+td.valores-puja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

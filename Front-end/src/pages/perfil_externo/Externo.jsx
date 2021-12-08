@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Cabecera from "../components/Cabecera";
+import CabMiPerfExt from "../components/CabMiPerfExt";
 import PiePagina from "../components/PiePagina";
 import '../resources/css/bootstrap.css';
 import '../resources/css/style_propio.css';
@@ -8,7 +8,7 @@ function Perfil_externo() {
    return (
       <div>
          {/* cabecera */}
-         <Cabecera />
+         <CabMiPerfExt />
 
          {/* pestaña izq */}
          <div className="pag-perfil">

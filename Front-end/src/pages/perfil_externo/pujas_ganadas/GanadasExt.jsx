@@ -7,7 +7,7 @@ import { useState } from "react"
 import axios from "axios";
 import CompGanadasExt from "./CompGanadasExt";
 import DatosJSON from "../../../mocks/inicioSubasta.json"
-
+import CabMiPerfExt from "../../components/CabMiPerfExt";
 
 function GanadasExt() {
   const [server, setServer] = useState([])
@@ -22,18 +22,23 @@ function GanadasExt() {
     })
 
   return (
-    <div className="pest-historial">
-      <div className="titulo-historial">
-        <Link to="/perfil-externo">
-          <img className="btn-regresar" src={regresar} alt="regresar" />
-        </Link>
-        <h1>Pujas Ganadas</h1>
+    <div>
+      {/* cabecera */}
+      <CabMiPerfExt />
 
-        {DatosJSON.map((DatosJSON) => {
-          console.log(DatosJSON)
-          return <CompGanadasExt key={DatosJSON.id} data={DatosJSON} />
-        })}
+      <div className="pest-historial">
+        <div className="titulo-historial">
+          <Link to="/perfil-externo">
+            <img className="btn-regresar" src={regresar} alt="regresar" />
+          </Link>
+          <h1>Pujas Ganadas</h1>
 
+          {DatosJSON.map((DatosJSON) => {
+            console.log(server)
+            return <CompGanadasExt key={DatosJSON.id} data={DatosJSON} />
+          })}
+
+        </div>
       </div>
     </div>
   )

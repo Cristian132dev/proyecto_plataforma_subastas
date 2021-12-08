@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Cabecera from "../components/Cabecera";
+import CabMiPerfInt from "../components/CabMiPerfInt";
 import PiePagina from "../components/PiePagina";
 import '../resources/css/bootstrap.css';
 import '../resources/css/style_propio.css';
@@ -8,7 +8,7 @@ function Perfil_interno() {
    return (
       <div>
          {/* cabecera */}
-         <Cabecera />
+         <CabMiPerfInt />
 
          {/* pestaña izq */}
          <div className="pag-perfil">
@@ -24,13 +24,10 @@ function Perfil_interno() {
                      <Link className="btn-perfil" to="/perfil-interno/perdidas">Pujas Perdidas</Link>
                   </li> <br />
                   <li>
-                     <Link className="btn-perfil" to="/perfil-interno/perdidas">Pujas por Subastas</Link>
+                     <Link className="btn-perfil" to="/perfil-interno/perdidas">Crear Subasta</Link>
                   </li> <br />
                   <li>
-                     <Link className="btn-perfil" to="/perfil-interno/perdidas">Subastas Disponibles</Link>
-                  </li> <br />
-                  <li>
-                     <Link className="btn-perfil" to="/perfil-interno/perdidas">Subastas Finalizadas por Fecha</Link>
+                     <Link className="btn-perfil" to="/perfil-interno/perdidas">Editar Subasta</Link>
                   </li> <br />
                   <li>
                      <Link className="btn-perfil" to="/perfil-interno/perdidas">Ver Reporte</Link>

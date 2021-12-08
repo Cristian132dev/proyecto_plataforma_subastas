@@ -3,7 +3,6 @@ import "../resources/css/style_propio.css";
 import DatosJSON from "../../mocks/inicioSubasta.json";
 import DataInicio from "./DataInicio";
 import axios from "axios";
-
 import PiePagina from "../components/PiePagina";
 import Cabecera from "../components/Cabecera";
 import { useState } from "react";

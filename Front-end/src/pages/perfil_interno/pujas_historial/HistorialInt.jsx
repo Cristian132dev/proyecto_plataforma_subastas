@@ -6,6 +6,7 @@ import axios from "axios";
 import { useState } from "react";
 import CompHistorial from "./CompHistorialInt";
 import DatosJSON from "../../../mocks/inicioSubasta.json"
+import CabMiPerfInt from "../../components/CabMiPerfInt";
 
 function Historial() {
    const [server, setServer] = useState([])
@@ -20,6 +21,10 @@ function Historial() {
       })
 
    return (
+      <div>
+      {/* cabecera */}
+      < CabMiPerfInt />
+
       <div className="pest-historial">
          <div className="titulo-historial">
             <Link to="/perfil-interno">
@@ -34,6 +39,7 @@ function Historial() {
 
          </div>
 
+      </div>
       </div>
    )
 }

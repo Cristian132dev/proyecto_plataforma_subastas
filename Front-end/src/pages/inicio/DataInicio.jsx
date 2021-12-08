@@ -2,6 +2,7 @@ import React from "react";
 import ropa from "../resources/img/ropa.jpg"
 import "../resources/css/style_propio.css"
 import "../resources/css/bootstrap.css"
+import { Link } from "react-router-dom";
 
 const DataInicio = (props) => {
    const { data } = props;
@@ -9,16 +10,19 @@ const DataInicio = (props) => {
       <div className="container">
 
          <section className="producto">
-            <img src={ropa} alt="imagen del producto" className="imagen" />
             <div className="text">
-               <p><b>{data.nombre}</b></p>
+               <Link to="/prenda">
+                  <img src={ropa} alt="imagen del producto" className="imagen" />
+                  <p><b>{data.nombre}</b></p>
+               </Link>
                <p>puja actual</p>
                <p>{data.precio}</p>
                <p>termina en (dia) a partir de las (hora)</p>
             </div>
-         </section>
+         </section >
+      </div >
 
-      </div>
+
    )
 }
 

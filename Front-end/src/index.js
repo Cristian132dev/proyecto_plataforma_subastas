@@ -7,6 +7,8 @@ import Inicio from "./pages/inicio/Inicio";
 import Login from "./pages/login/Login";
 import Registro from "./pages/registro/Registro";
 
+import Prenda from "./pages/prenda/Prenda";
+
 import Externo from "./pages/perfil_externo/Externo";
 import HistorialExt from "./pages/perfil_externo/pujas_historial/HistorialExt";
 import GanadasExt from "./pages/perfil_externo/pujas_ganadas/GanadasExt";
@@ -25,6 +27,8 @@ ReactDOM.render(
         <Route exact path="/" element={<Inicio />} />
         <Route path="/login" element={<Login />} />
         <Route path="/registro" element={<Registro />} />
+
+        <Route path="/prenda" element={<Prenda />} />
 
         <Route path="/perfil-externo" element={<Externo />} />
         <Route path="/perfil-externo/historial" element={<HistorialExt />} />

@@ -6,6 +6,7 @@ import axios from "axios";
 import { useState } from "react";
 import CompHistorialExt from "./CompHistorialExt";
 import DatosJSON from "../../../mocks/inicioSubasta.json"
+import CabMiPerfExt from "../../components/CabMiPerfExt";
 
 function Historial() {
    const [server, setServer] = useState([])
@@ -20,18 +21,20 @@ function Historial() {
       })
 
    return (
-      <div className="pest-historial">
-         <div className="titulo-historial">
-            <Link to="/perfil-externo">
-               <img className="btn-regresar" src={regresar} alt="regresar" />
-            </Link>
-            <h1>Historial de Pujas</h1>
-            {DatosJSON.map((DatosJSON) => {
-               console.log(DatosJSON)
-               return <CompHistorialExt key={DatosJSON.id} data={DatosJSON} />
-            })}
+      <div>
+         {/* cabecera */}
+         <CabMiPerfExt />
 
-
+         <div className="pest-historial">
+            <div className="titulo-historial">
+               <Link to="/perfil-externo">
+                  <img className="btn-regresar" src={regresar} alt="regresar" />
+               </Link>
+               <h1>Historial de Pujas</h1>
+               {DatosJSON.map((DatosJSON) => {
+                  return <CompHistorialExt key={DatosJSON.id} data={DatosJSON} />
+               })}
+            </div>
          </div>
 
       </div>
