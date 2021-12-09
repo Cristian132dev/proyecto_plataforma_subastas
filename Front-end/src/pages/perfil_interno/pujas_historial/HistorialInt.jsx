@@ -22,24 +22,26 @@ function Historial() {
 
    return (
       <div>
-      {/* cabecera */}
-      < CabMiPerfInt />
+         {/* cabecera */}
+         < CabMiPerfInt />
 
-      <div className="pest-historial">
-         <div className="titulo-historial">
-            <Link to="/perfil-interno">
-               <img className="btn-regresar" src={regresar} alt="regresar" />
-            </Link>
-            <h1>Historial de Pujas</h1>
-            {DatosJSON.map((DatosJSON) => {
-               console.log(DatosJSON)
-               return <CompHistorial key={DatosJSON.id} data={DatosJSON} />
-            })}
+         <div className="pest-historial">
+            <div className="titulo-historial">
+               <div className="en-linea">
+                  <Link to="/perfil-interno">
+                     <img className="btn-regresar" src={regresar} alt="regresar" />
+                  </Link>
+                  <h1>Historial de Pujas</h1>
+               </div>
+               {DatosJSON.map((DatosJSON) => {
+                  console.log(DatosJSON)
+                  return <CompHistorial key={DatosJSON.id} data={DatosJSON} />
+               })}
 
+
+            </div>
 
          </div>
-
-      </div>
       </div>
    )
 }

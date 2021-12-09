@@ -28,7 +28,7 @@ function Perdidas() {
 
          {/* contenido */}
          <div className="pest-historial">
-            <div className="titulo-historial">
+            <div className="titulo-historial en-linea">
                <Link to="/perfil-interno">
                   <img className="btn-regresar" src={regresar} alt="regresar" />
                </Link>

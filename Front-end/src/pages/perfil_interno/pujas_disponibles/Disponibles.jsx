@@ -4,11 +4,12 @@ import '../../resources/css/style_propio.css';
 import { Link } from "react-router-dom"
 import axios from "axios";
 import { useState } from "react";
-import CompHistorialExt from "./CompHistorialExt";
+import CompDisponibles from "../pujas_disponibles/ComPujaSubastas";
 import DatosJSON from "../../../mocks/inicioSubasta.json"
 import CabMiPerfExt from "../../components/CabMiPerfExt";
+import PiePagina from "../../components/PiePagina"
 
-function Historial() {
+function Disponibles() {
    const [server, setServer] = useState([])
 
    axios.get("http://localhost:3001/")
@@ -31,16 +32,18 @@ function Historial() {
                   <Link to="/perfil-externo">
                      <img className="btn-regresar" src={regresar} alt="regresar" />
                   </Link>
-                  <h1>Historial de Pujas</h1>
+                  <h1>Subastas Disponibles</h1>
                </div>
                {DatosJSON.map((DatosJSON) => {
-                  return <CompHistorialExt key={DatosJSON.id} data={DatosJSON} />
+                  return <CompDisponibles key={DatosJSON.id} data={DatosJSON} />
                })}
             </div>
          </div>
-
+            
+         <PiePagina />
       </div>
    )
 }
 
-export default Historial;
+
+export default Disponibles;

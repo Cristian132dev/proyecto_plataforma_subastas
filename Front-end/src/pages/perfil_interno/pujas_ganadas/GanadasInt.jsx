@@ -28,11 +28,14 @@ function Ganadas() {
 
       {/* contenido */}
       <div className="pest-historial">
+
         <div className="titulo-historial">
-          <Link to="/perfil-interno">
-            <img className="btn-regresar" src={regresar} alt="regresar" />
-          </Link>
-          <h1>Pujas Ganadas</h1>
+          <div className="en-linea">
+            <Link to="/perfil-interno">
+              <img className="btn-regresar" src={regresar} alt="regresar" />
+            </Link>
+            <h1>Pujas Ganadas</h1>
+          </div>
           {DatosJSON.map((DatosJSON) => {
             console.log(DatosJSON)
             return <HistGanadas key={DatosJSON.id} data={DatosJSON} />

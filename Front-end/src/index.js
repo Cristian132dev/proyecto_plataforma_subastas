@@ -21,6 +21,9 @@ import GanadasInt from "./pages/perfil_interno/pujas_ganadas/GanadasInt"
 import PerdidasInt from "./pages/perfil_interno/pujas_perdidas/PerdidasInt"
 import Crear from "./pages/perfil_interno/crear_pujas/Crear"
 import Editar from "./pages/perfil_interno/editar_pujas/Editar"
+import PujaSubastas from "./pages/perfil_interno/pujas_subastas/PujaSubastas"
+import Disponibles from "./pages/perfil_interno/pujas_disponibles/Disponibles"
+import Finalizadas from "./pages/perfil_interno/pujas_finalizadas/Finalizadas"
 
 // rutas
 ReactDOM.render(
@@ -45,6 +48,9 @@ ReactDOM.render(
         <Route path="/perfil-interno/perdidas" element={<PerdidasInt />} />
         <Route path="/perfil-interno/crear" element={<Crear />} />
         <Route path="/perfil-interno/editar" element={<Editar />} />
+        <Route path="/perfil-interno/pujas-subasta" element={<PujaSubastas />} />
+        <Route path="/perfil-interno/disponibles" element={<Disponibles />} />
+        <Route path="/perfil-interno/finalizadas" element={<Finalizadas />} />
 
       </Routes>
     </Router>

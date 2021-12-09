@@ -264,6 +264,23 @@ form input, select, label{
 
 }
 
+
+
+.menu-desplegable{
+    display: none;
+    position: absolute;
+}
+
+
+.menu:hover > .menu-desplegable,
+.menu-desplegable:hover {
+    display: grid;
+    float: left;
+    padding: 0;
+    margin: 0 10px;
+}
+
+
 /*! historial */
 
 .lista{
@@ -383,3 +400,13 @@ td.valores-puja{
 .crear-subasta .iniciarSesion{
     width: 320px;
 }
+
+.en-linea{
+    display: flex;
+    align-items: flex-end;
+}
+
+.filtro input{
+    width: 300px;
+}
+

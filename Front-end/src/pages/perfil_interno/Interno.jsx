@@ -29,8 +29,20 @@ function Perfil_interno() {
                   <li>
                      <Link className="btn-perfil" to="/perfil-interno/editar">Editar Subasta</Link>
                   </li> <br />
-                  <li>
-                     <Link className="btn-perfil" to="/perfil-interno/perdidas">Ver Reporte</Link>
+
+                  <li className="menu">
+                     <Link className="btn-perfil" to="/perfil-interno">Ver Reporte</Link>
+                     <ul  className="menu-desplegable">
+                        <li>
+                           <Link className="btn-perfil" to="/perfil-interno/pujas-subasta">Pujas Por Subasta</Link>
+                        </li>
+                        <li>
+                           <Link className="btn-perfil" to="/perfil-interno/disponibles">Subastas Disponibles</Link>
+                        </li>
+                        <li>
+                           <Link className="btn-perfil" to="/perfil-interno/finalizadas">Subastas Finalizadas por Fecha</Link>
+                        </li>
+                     </ul>
                   </li> <br />
                </ul>
             </div>
@@ -64,7 +76,7 @@ function Perfil_interno() {
                   <label htmlFor="password">Contraseña</label> <br />
                   <input type="password" name="password-int" id="password" required /> <br />
 
-                  <input type="submit" value="Actualizar Datos" className="btnCrea"/> <br />
+                  <input type="submit" value="Actualizar Datos" className="btnCrea" /> <br />
                </form>
             </main>
          </div>

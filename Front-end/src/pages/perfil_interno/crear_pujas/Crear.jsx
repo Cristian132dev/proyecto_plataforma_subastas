@@ -9,9 +9,9 @@ function Crear() {
    return (
       <div className="container" >
 
-         <div>
             <CabMiPerfInt />
 
+         <div className="en-linea">
             <Link to="/perfil-interno">
                <img className="btn-regresar" src={regresar} alt="regresar" />
             </Link>
