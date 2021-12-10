@@ -7,10 +7,8 @@ import { Link } from "react-router-dom";
 const DataInicio = (props) => {
    const { data } = props;
    return (
-      <div className="container">
-
-         <section className="producto">
-            <div className="text">
+      <div className="producto">
+         <section >
                <Link to="/prenda">
                   <img src={ropa} alt="imagen del producto" className="imagen" />
                   <p><b>{data.nombre}</b></p>
@@ -18,7 +16,6 @@ const DataInicio = (props) => {
                <p>puja actual</p>
                <p>{data.precio}</p>
                <p>termina en (dia) a partir de las (hora)</p>
-            </div>
          </section >
       </div >
 
