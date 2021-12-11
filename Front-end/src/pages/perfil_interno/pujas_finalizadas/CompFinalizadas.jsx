@@ -2,12 +2,15 @@ import React from "react";
 import ropa from "../../resources/img/ropa.jpg";
 import { Link } from "react-router-dom";
 
-function CompHistorial(props) {
+function CompFinalizadas(props) {
    const { data } = props;
 
    return (
-      <div>
-         <ul className="container lista">
+      <div className="style-finalizadas">
+
+
+
+         <ul >
             <li>
                <img className="img-historial" src={ropa} alt="imagen de prenda" />
             </li>
@@ -28,4 +31,4 @@ function CompHistorial(props) {
    )
 }
 
-export default CompHistorial;
+export default CompFinalizadas;

@@ -2,7 +2,7 @@ import React from "react";
 import ropa from "../../resources/img/ropa.jpg";
 import { Link } from "react-router-dom";
 
-function CompHistorial(props) {
+function CompHistorialnt(props) {
    const { data } = props;
 
    return (
@@ -29,4 +29,4 @@ function CompHistorial(props) {
    )
 }
 
-export default CompHistorial;
+export default CompHistorialnt;

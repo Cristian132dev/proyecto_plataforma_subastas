@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import ropa from "../../resources/img/ropa.jpg"
 
 
-function CompGanadas(props) {
+function CompGanadasInt(props) {
 	const { data } = props
 	return (
 
@@ -30,4 +30,4 @@ function CompGanadas(props) {
 	)
 }
 
-export default CompGanadas;
+export default CompGanadasInt;

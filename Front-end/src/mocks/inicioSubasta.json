@@ -4,10 +4,39 @@
       "nombre": "Camiseta",
       "precio": 70000
    },
-
+   {
+      "id": 2,
+      "nombre": "Chaqueta",
+      "precio": 800
+   },
    {
       "id": 3,
       "nombre": "Chaleco",
       "precio": 180000
+   },
+   {
+      "id": 4,
+      "nombre": "Cami-buso",
+      "precio": 12000
+   },
+   {
+      "id": 5,
+      "nombre": "Camiseta",
+      "precio": 70000
+   },
+   {
+      "id": 6,
+      "nombre": "Chaqueta",
+      "precio": 800
+   },
+   {
+      "id": 7,
+      "nombre": "Chaleco",
+      "precio": 180000
+   },
+   {
+      "id": 8,
+      "nombre": "Cami-buso",
+      "precio": 12000
    }
 ]

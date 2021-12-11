@@ -4,9 +4,9 @@ import '../../resources/css/style_propio.css';
 import { Link } from "react-router-dom"
 import axios from "axios";
 import { useState } from "react";
-import CompDisponibles from "../pujas_disponibles/ComPujaSubastas";
+import CompDisponibles from "./CompDisponibles";
 import DatosJSON from "../../../mocks/inicioSubasta.json"
-import CabMiPerfExt from "../../components/CabMiPerfExt";
+import CabMiPerfInt from "../../components/CabMiPerfInt";
 import PiePagina from "../../components/PiePagina"
 
 function Disponibles() {
@@ -24,12 +24,12 @@ function Disponibles() {
    return (
       <div>
          {/* cabecera */}
-         <CabMiPerfExt />
+         <CabMiPerfInt />
 
          <div className="pest-historial">
             <div className="titulo-historial">
                <div className="en-linea">
-                  <Link to="/perfil-externo">
+                  <Link to="/perfil-interno">
                      <img className="btn-regresar" src={regresar} alt="regresar" />
                   </Link>
                   <h1>Subastas Disponibles</h1>
@@ -39,7 +39,7 @@ function Disponibles() {
                })}
             </div>
          </div>
-            
+
          <PiePagina />
       </div>
    )

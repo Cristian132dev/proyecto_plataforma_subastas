@@ -25,6 +25,8 @@ import PujaSubastas from "./pages/perfil_interno/pujas_subastas/PujaSubastas"
 import Disponibles from "./pages/perfil_interno/pujas_disponibles/Disponibles"
 import Finalizadas from "./pages/perfil_interno/pujas_finalizadas/Finalizadas"
 
+import Dashboard from "./pages/dashboard/Dashboard"
+
 // rutas
 ReactDOM.render(
   <React.StrictMode>
@@ -51,6 +53,8 @@ ReactDOM.render(
         <Route path="/perfil-interno/pujas-subasta" element={<PujaSubastas />} />
         <Route path="/perfil-interno/disponibles" element={<Disponibles />} />
         <Route path="/perfil-interno/finalizadas" element={<Finalizadas />} />
+
+        <Route path="/admin" element={<Dashboard />} />
 
       </Routes>
     </Router>

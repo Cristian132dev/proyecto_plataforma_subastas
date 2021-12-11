@@ -4,7 +4,7 @@ import '../../resources/css/bootstrap.css';
 import '../../resources/css/style_propio.css';
 import { useState } from "react"
 import axios from "axios";
-import HistGanadas from "./CompGanadasInt";
+import CompGanadasInt from "./CompGanadasInt";
 import DatosJSON from "../../../mocks/inicioSubasta.json"
 import CabMiPerfInt from "../../components/CabMiPerfInt";
 import regresar from "../../resources/img/regresar.png"
@@ -38,7 +38,7 @@ function Ganadas() {
           </div>
           {DatosJSON.map((DatosJSON) => {
             console.log(DatosJSON)
-            return <HistGanadas key={DatosJSON.id} data={DatosJSON} />
+            return <CompGanadasInt key={DatosJSON.id} data={DatosJSON} />
           })}
 
         </div>

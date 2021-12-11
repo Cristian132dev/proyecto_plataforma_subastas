@@ -1,5 +1,5 @@
 import React from "react";
-import CabMiPerfInt from "../../components/CabMiPerfExt";
+import CabMiPerfInt from "../../components/CabMiPerfInt";
 import { Link } from "react-router-dom";
 import regresar from "../../resources/img/regresar.png"
 import PiePagina from "../../components/PiePagina";
